@@ -1,11 +1,5 @@
 $(() => {
   // Select table containing the battleground
-  var rawgit = require( 'rawgit-url' );
-  var opts = {
-    'cdn': true,
-    'slug': 'rstropek-teaching/battleship-quiz-4ahif-StefanHaslhofer/master',
-    'file': 'battleship.html'
-  };
   const battleground = $('#battleground');
   let upper=10;
   let lower=0;
